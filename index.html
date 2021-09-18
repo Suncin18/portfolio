@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
+    <title>Inicio</title>
+</head>
+<body>
+    <header class="main_header" id="home">
+        <div class="main_container" id="go-left">
+            <span class="btn_menu_responsive" id="btn-menu-responsive">
+                <i class="fa fa-bars"></i>
+            </span>
+            <nav class="main_nav">
+                <ul class="nav_items_container">
+                    <li class="nav_items"><a href="#home">Inicio</a></li>
+                    <li class="nav_items"><a href="#skills">Habilidades</a></li>
+                    <li class="nav_items"><a href="#projects">Proyectos</a></li>
+                    <li class="nav_items"><a href="#about">Sobre mi</a></li>
+                    <li class="nav_items"><a href="#contact">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="header_inferior">
+                <h1>Christian<br>Suncin Mora</h1>
+                <h2>Desarrollador de software</h2>
+                <!-- <h2>dominio</h2>
+                <h2>Enlaces a proyectos</h2>
+                <h2>Corregir CV</h2>
+                <h2>Corregir contact image</h2> -->
+            </div>
+        </div>
+    </header>
+    <section id="skills">
+        <div class="main_container skills" id="go-right">
+            <div>
+                <h2>Habilidades</h2>
+                <img src="img/skills.png" alt="skills">
+            </div>
+            <div class="right_skills_container">
+                <h3 id="html">HTML</h3>
+                <h3 id="css">CSS</h3>
+                <h3 id="js">Javascript</h3>
+                <h3 id="nodejs">NodeJS</h3>
+                <h3 id="mongodb">MongoDB</h3>
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="main_container">
+            <h2>Proyectos</h2>
+            <p>Al hacer click en cada proyecto podrá<br>observar las tecnologías utilizadas y un enlace al mismo.</p>
+            <div class="cards_container">
+                <img src="img/barbershop.png" alt="projects" class="imgAnimation">
+                <img src="img/softloop.jpeg" alt="projects" class="imgAnimation">
+                <img src="img/formValidation.png" alt="projects" class="imgAnimation">
+            </div>
+            <div class="container-lightbox">
+                <i class="fas fa-times-circle"></i>
+                <p class="copy"></p>
+                <p class="copy-2"></p>
+                <div class="btn_container a_project">
+                    <a href="#" target="_blank">Visitar proyecto</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <div class="about">
+            <figure id="about-img">
+                <img src="img/about.png" alt="about-christian-suncin">
+            </figure>
+            <div id="about-text">
+                <h2>Sobre mi</h2>
+                <p>Estudiante de ingeniería del software en Cenfotec. Estoy reforzando conocimientos en Java y SQL. Tengo nivel de inglés C1. Me considero autodidacta.</p>
+                <div class="btn_container">
+                    <a href="ChristianWEBEnglish.pdf" download="ChistianSuncinCV" target="_blank">Curriculum ></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="main_container">
+            <h2>Trabajemos juntos.</h2>
+            <div class="contac_container">
+                <img src="img/contact.png" alt="contact">
+                <div class="contact_item_container">
+                    <div class="contact-items">
+                        <a href="https://www.linkedin.com/in/christian-suncin-softwaredeveloper/" target="_blank"><h3>LinkedIn</h3></a>
+                        <h3>Christian Suncin</h3>
+                    </div>
+                    <div class="contact-items">
+                        <a href="https://github.com/Suncin18" target="_blank"><h3>Github</h3></a>
+                        <h3>Suncin18</h3>
+                    </div>
+                    <div class="contact-items">
+                        <h3>Correo electrónico</h3>
+                        <h3>csuncinm@ucenfotec.ac.cr</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="animaciones.js"></script>
+</body>
+</html>
