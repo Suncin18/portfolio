@@ -7,6 +7,7 @@ xAbout = El scroll necesario para la animación de about
 about-text = Texto del about, aparecerá desde la derecha hacia la izquierda
 lightBox = contenedor del lightbox de proyectos
 projectText = descripción del proyecto
+btnProject = Enlace a cada proyecto
 */
 
 // const goLeft = document.getElementById('go-left');
@@ -17,6 +18,7 @@ const aboutText = document.getElementById('about-text');
 const lightBox = document.querySelector('.container-lightbox');
 const projectText = document.querySelector('.copy');
 const projectText2 = document.querySelector('.copy-2');
+const btnProject = document.getElementById('btn-project');
 
 console.log('Resolusión de la pantalla: '+ window.screen.width);
 
@@ -93,10 +95,12 @@ for(let i=0;i<imgView.length;i++){
             case 0:
                 projectText.innerText = 'Tecnologías utilizadas: HTML, CSS y JS.';
                 projectText2.innerText = 'Proyecto personal sobre una landing page para una barbería con atractivas animaciones.';
+                btnProject.setAttribute('href', 'https://suncin18.github.io/BarberShop/');
                 break;
             case 1:
                 projectText.innerText = 'Tecnologías utilizadas: HTML, CSS.';
                 projectText2.innerText = 'Proyecto de una landing page para la Universidad tomando un diseño de photoshop e implementandolo en código puro.';
+                btnProject.setAttribute('href', 'https://suncin18.github.io/SoftLoop/');
                 break;
             case 2:
                 projectText.innerText = 'Tecnologías utilizadas: HTML, CSS y JS.';
