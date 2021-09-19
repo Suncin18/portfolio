@@ -275,7 +275,7 @@ html{
     position: absolute;
     color: #fff;
     top: 20px;
-    right: 10px;
+    left: 10px;
     font-size: 40px;
     cursor: pointer;
     transition: 0.9s;
@@ -464,7 +464,7 @@ html{
         font-size: 17px!important;
     }
     .a_project{
-        bottom: 190px;
+        bottom: 95px;
     }
 }
 
@@ -558,6 +558,6 @@ html{
 
     /* JavaScript */
     .a_project{
-        bottom: 100px;
+        bottom: 50px;
     }
 }
