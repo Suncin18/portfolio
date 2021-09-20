@@ -1,5 +1,7 @@
 /*
 skills = section skills
+skillPack = html, css, js, nodejs, mongodb
+iSKill = icono de skills
 imgView = imagenes de proyectos
 imgAbout = imagen de seccion about
 xSkills = El scroll necesario para la animación de skills
@@ -19,12 +21,38 @@ const lightBox = document.querySelector('.container-lightbox');
 const projectText = document.querySelector('.copy');
 const projectText2 = document.querySelector('.copy-2');
 const btnProject = document.getElementById('btn-project');
+const skillPack = document.querySelectorAll('.skill_hover');
+const imgSkills = document.getElementById('img-skills');
 
-console.log('Resolusión de la pantalla: '+ window.screen.width);
+//Esta es la función para el hover en skills-sct
+for(let i=0;i<skillPack.length;i++){
+    skillPack[i].addEventListener('mouseover', ()=>{
+        switch (i){
+            case 0:
+                imgSkills.src = 'img/html.png';
+                break;
+            case 1:
+                imgSkills.src = 'img/css.png';
+                break;
+            case 2:
+                imgSkills.src = 'img/javascript.png';
+                break;
+            case 3:
+                imgSkills.src = 'img/nodejs.png';
+                break;
+            case 4:
+                imgSkills.src = 'img/mongoDB.png';
+                break;
+            default:
+                imgSkills.src = 'img/skills.png';
+                break;
+        }
+    });
+}
 
 window.addEventListener('scroll', ()=>{
     let scrollActual = window.scrollY;
-    // let xN = -scrollActual+"px";
+
     // Aqui denifimos las variables en las que nos detendremos
     let xSkills;
     let detenerScrollSkills;
@@ -32,7 +60,6 @@ window.addEventListener('scroll', ()=>{
     let empezarEfectoAbout;
 
     // Con este if cambiamos los valores del scroll en base a la resolución del dispositivo
-    // 359
     if((window.screen.width > 359)&&(window.screen.width < 767)){
         xSkills = (scrollActual - 700);
         detenerScrollSkills = 3;
@@ -47,10 +74,8 @@ window.addEventListener('scroll', ()=>{
         empezarEfectoAbout = 1145;
     }
 
-    
     let xAbout = (scrollActual - 1721);
     let xAboutText = (-scrollActual + 1700);
-    // goLeft.style.transform = `translateX(${xN})`;
     if(xSkills<detenerScrollSkills){
         skills.style.transform = `translateX(${xSkills}px)`;
     }

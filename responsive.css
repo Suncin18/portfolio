@@ -72,6 +72,8 @@
 .skills img{
     margin-top: 90px;
     width: 450px;
+    height: 300px;
+    transition: 0.9s;
 }
 .right_skills_container{
     margin-right: 150px;
@@ -137,10 +139,11 @@
 .cards_container img{
     width: 350px;
     transition: 0.9s;
+    border-radius: 5px;
 }
 .cards_container img:hover{
     cursor: pointer;
-    width: 400px;
+    width: 360px;
 }
 
 /* about */
