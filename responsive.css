@@ -262,7 +262,7 @@ html{
     color: #fff;
     width: 60%;
     margin:auto;
-    top: 30%;
+    top: 10%;
     position: fixed;
     text-align: justify;
 }
@@ -270,7 +270,7 @@ html{
     color: #fff;
     width: 60%;
     margin:auto;
-    top: 40%;
+    top: 20%;
     position: fixed;
     text-align: justify;
 }
@@ -364,7 +364,7 @@ html{
     /* JavaScript */
     .copy,
     .copy-2{
-        width: 75%;
+        width: 90%;
         font-size: 30px!important;
     }
     .a_project{
@@ -432,7 +432,7 @@ html{
         background: linear-gradient(180deg, #fff 30%, #141414 70%);
     }
     #projects p{
-        font-size: 20px;
+        font-size: 15px;
     }
     .cards_container img{
         width: 190px;
@@ -467,7 +467,7 @@ html{
         font-size: 17px!important;
     }
     .a_project{
-        bottom: 95px;
+        bottom: 60px;
     }
 }
 
@@ -500,7 +500,7 @@ html{
 
     /* Projects */
     #projects p{
-        font-size: 18px;
+        font-size: 13px;
     }
     #about h2{
         font-size: 60px;
@@ -543,7 +543,7 @@ html{
         font-size: 45px;
     }
     #projects p{
-        font-size: 15px;
+        font-size: 10px;
     }
 
     /* about */
