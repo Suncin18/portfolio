@@ -262,7 +262,7 @@ html{
     color: #fff;
     width: 60%;
     margin:auto;
-    top: 10%;
+    top: 20%;
     position: fixed;
     text-align: justify;
 }
@@ -270,7 +270,7 @@ html{
     color: #fff;
     width: 60%;
     margin:auto;
-    top: 20%;
+    top: 30%;
     position: fixed;
     text-align: justify;
 }
@@ -462,9 +462,13 @@ html{
     }
 
     /* JavaScript */
-    .copy,
+    .copy{
+        font-size: 17px!important;
+        /* top: 10%; */
+    }
     .copy-2{
         font-size: 17px!important;
+        /* top: 20%; */
     }
     .a_project{
         bottom: 60px;
@@ -560,6 +564,12 @@ html{
     }
 
     /* JavaScript */
+    .copy{
+        top: 10%;
+    }
+    .copy-2{
+        top: 20%;
+    }
     .a_project{
         bottom: 50px;
     }
