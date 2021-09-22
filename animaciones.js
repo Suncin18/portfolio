@@ -128,8 +128,9 @@ for(let i=0;i<imgView.length;i++){
                 btnProject.setAttribute('href', 'https://suncin18.github.io/SoftLoop/');
                 break;
             case 2:
-                projectText.innerText = 'Tecnologías utilizadas: HTML, CSS y JS.';
-                projectText2.innerText = 'Proyecto en JavaScript puro implementando validación de formularios para nombres, correo, contraseña segura, campos obligatorios, concruencia en las contraseñas y generando mensajes de error y/o éxito dinámicamente.';
+                projectText.innerText = 'Tecnologías utilizadas: HTML, CSS, JS, NodeJS, MongoDB y Git';
+                projectText2.innerText = 'FullStack app con HTML, CSS y JS en el front-end y NodeJS en el back-end, el back-end está en Heroku y el front-end en GitHub, la base de datos está almacenada por medio de AWS con la función que ofrece MongoDB Atlas. La aplicación tiene un log in básico, recibe información del usuario para generar una factura la cual se envía por un responsive HTML email, usando gmail y además se muestra en la sección "historial". Si no desea registrarse (la aplicación le permitirá hacerlo) puede usar estos credenciales: USUARIO: tdevelopment4@gmail.com CONTRASEÑA: Sun#66';
+                btnProject.setAttribute('href', 'https://suncin18.github.io/FacturacionD/');
                 break;
             default:
                 break;
