@@ -132,6 +132,11 @@ for(let i=0;i<imgView.length;i++){
                 projectText2.innerText = 'FullStack app con HTML, CSS y JS en el front-end y NodeJS en el back-end, el back-end está en Heroku y el front-end en GitHub, la base de datos está almacenada por medio de AWS con la función que ofrece MongoDB Atlas. La aplicación tiene un log in básico, recibe información del usuario para generar una factura la cual se envía por un responsive HTML email, usando gmail y además se muestra en la sección "historial". Si no desea registrarse (la aplicación le permitirá hacerlo) puede usar estos credenciales: USUARIO: tdevelopment4@gmail.com CONTRASEÑA: Sun#66';
                 btnProject.setAttribute('href', 'https://suncin18.github.io/FacturacionD/');
                 break;
+            case 3:
+                projectText.innerText = 'Tecnologías utilizadas: HTML, CSS, JS';
+                projectText2.innerText = 'Landing page para un restaurante ficticio con su respectivo menú de comidas, responsive y con un menú de navegación fijo.';
+                btnProject.setAttribute('href', 'https://suncin18.github.io/restaurant/');
+                break;
             default:
                 break;
         }

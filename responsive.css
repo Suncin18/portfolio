@@ -140,6 +140,7 @@
     width: 350px;
     transition: 0.9s;
     border-radius: 5px;
+    margin: 11px 0;
 }
 .cards_container img:hover{
     cursor: pointer;
