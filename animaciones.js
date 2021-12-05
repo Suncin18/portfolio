@@ -32,35 +32,35 @@ for(let i=0;i<skillPack.length;i++){
     skillPack[i].addEventListener('mouseover', ()=>{
         switch (i){
             case 0:
-                pSkills.textContent = 'Aquí inicia todo, tengo más 10 meses trabajando con HTML y sé sobre los nuevos estandares de HTML5, semantica, buenas prácticas y SEO.';
+                pSkills.textContent = 'Aquí inicia todo, tengo 1 año de experiencia trabajando con HTML y sé sobre los nuevos estandares de HTML5, semantica, buenas prácticas y SEO.';
                 pSkills.style.color = 'orange';
                 break;
             case 1:
-                pSkills.textContent = 'Tengo experiencia con la adaptación a diferentes resoluciones de pantalla (Responsive design) en lo cuál tengo más de 10 meses de experiencia, incluyendo HTML emails y los nuevos estandares de CSS3.';
+                pSkills.textContent = 'Tengo experiencia con la adaptación a diferentes resoluciones de pantalla (Responsive design) en lo cuál tengo 1 año de experiencia, incluyendo HTML emails y los nuevos estandares de CSS3.';
                 pSkills.style.color = 'blue';
                 break;
             case 2:
-                pSkills.textContent = 'El lenguaje de la web, tengo más de 6 meses de experiencia tanto al utilizarlo para crear animaciones, como para complementar junto con los media queries de CSS al realizar el responsive design hasta lo que implica el front end al momento de consumir APIs, conectar con el back end para el intercambio de información, manipulación del DOM, promesas, this, POO, protocolos HTTP, eventos, await/async, JSON, XML y los nuevos estandares de ESC6.';
+                pSkills.textContent = 'El lenguaje de la web, tengo más de 8 meses de experiencia tanto al utilizarlo para crear animaciones, como para complementar junto con los media queries de CSS al realizar el responsive design hasta lo que implica el front end al momento de consumir APIs, conectar con el back end para el intercambio de información, manipulación del DOM, promesas, this, POO, protocolos HTTP, eventos, await/async, JSON, XML y los nuevos estandares de ESC6.';
                 pSkills.style.color = 'yellow';
                 break;
             case 3:
-                pSkills.textContent = 'Continuando con JavaScript, ahora del lado del servidor, tengo más de 6 meses de experiencia trabajando el backend con NodeJS, utilizando NPM y populares dependencias como Express, Nodemon, CORS, Mongoose, Body-Parse. Amplio conocimiento en el uso de export/import, rutas, modelos, creación de APIs, MVC, comunicación con base de datos (MongoDB) y el front-end.';
+                pSkills.textContent = 'Continuando con JavaScript, ahora del lado del servidor, tengo más de 8 meses de experiencia trabajando el backend con NodeJS, utilizando NPM y populares dependencias como Express, Nodemon, CORS, Mongoose, Body-Parse. Amplio conocimiento en el uso de export/import, rutas, modelos, creación de APIs, MVC, comunicación con base de datos (MongoDB) y el front-end.';
                 pSkills.style.color = 'greenyellow';
                 break;
             case 4:
-                pSkills.textContent = 'Tengo 1 mes trabajando con ASP.Net, MVC, POO, Entities, comunicación con base de datos SQL para realizar consultas, métodos GET y POST.';
+                pSkills.textContent = 'Tengo más de 2 meses trabajando con ASP.Net CORE, MVC, POO, Entities, comunicación con base de datos SQL para realizar consultas y modificaciones, métodos GET y POST.';
                 pSkills.style.color = 'purple';
                 break;
             case 5:
-                pSkills.textContent = 'Experiencia de 2 meses con Git para control de versiones, he utilizado Shell, GitKraken, BitBucket y GitHub.';
+                pSkills.textContent = 'Más de 4 meses de experiencia con Git para control de versiones, he utilizado Shell, GitKraken, BitBucket y GitHub.';
                 pSkills.style.color = '#f34f29';
                 break;
             case 6:
-                pSkills.textContent = 'Complementando el stack de JavaScript, tengo más de 6 meses de experiencia en la creación de CRUDs. Comprendo el sistema de esquemas, colecciones, documentos y subdocumentos de MongoDB, los métodos POST, PUT, GET y DELETE.';
+                pSkills.textContent = 'Complementando el stack de JavaScript, tengo más de 8 meses de experiencia en la creación de CRUDs. Comprendo el sistema de esquemas, colecciones, documentos y subdocumentos de MongoDB, los métodos POST, PUT, GET y DELETE.';
                 pSkills.style.color = 'green';
                 break;
             case 7:
-                pSkills.textContent = 'Experiencia de 2 meses en el lenguaje de base de datos relacional SQL, he utilizado Oracle SQL y SQL Server para consultas, filtros, envío de datos y actualizaciones de los mismos, métodos JOIN, SET, UPDATE, DELETE.';
+                pSkills.textContent = 'Más de 4 meses de experiencia en el lenguaje de base de datos relacional SQL, he utilizado Oracle SQL, MySQL y SQL Server para consultas, filtros, envío de datos y actualizaciones de los mismos. Conocimientos sólidos sobre MER';
                 pSkills.style.color = 'lightblue';
                 break;
             default:
