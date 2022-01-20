@@ -32,11 +32,11 @@ for(let i=0;i<skillPack.length;i++){
     skillPack[i].addEventListener('mouseover', ()=>{
         switch (i){
             case 0:
-                pSkills.textContent = 'Aquí inicia todo, tengo 1 año de experiencia trabajando con HTML y sé sobre los nuevos estandares de HTML5, semantica, buenas prácticas y SEO.';
+                pSkills.textContent = 'Aquí inicia todo, tengo más de 1 año trabajando con HTML y sé sobre los nuevos estandares de HTML5, semantica, buenas prácticas y SEO.';
                 pSkills.style.color = 'orange';
                 break;
             case 1:
-                pSkills.textContent = 'Tengo experiencia con la adaptación a diferentes resoluciones de pantalla (Responsive design) en lo cuál tengo 1 año de experiencia, incluyendo HTML emails y los nuevos estandares de CSS3.';
+                pSkills.textContent = 'Tengo experiencia con la adaptación a diferentes resoluciones de pantalla (Responsive design) en lo cuál tengo más de 1 año de experiencia, incluyendo HTML emails y los nuevos estandares de CSS3.';
                 pSkills.style.color = 'blue';
                 break;
             case 2:
@@ -48,19 +48,19 @@ for(let i=0;i<skillPack.length;i++){
                 pSkills.style.color = 'greenyellow';
                 break;
             case 4:
-                pSkills.textContent = 'Tengo más de 2 meses trabajando con ASP.Net CORE, MVC, POO, Entities, comunicación con base de datos SQL para realizar consultas y modificaciones, métodos GET y POST.';
+                pSkills.textContent = 'Tengo más de 3 meses trabajando con ASP .NET Core (c#), MVC, ASP Framework, POO, Entities, comunicación con base de datos SQL (Utilizando SQL Server) en la realización de CRUDs.';
                 pSkills.style.color = 'purple';
                 break;
             case 5:
-                pSkills.textContent = 'Más de 4 meses de experiencia con Git para control de versiones, he utilizado Shell, GitKraken, BitBucket y GitHub.';
+                pSkills.textContent = 'Experiencia de más de 5 meses con Git para control de versiones, he utilizado Shell, GitKraken, BitBucket y GitHub.';
                 pSkills.style.color = '#f34f29';
                 break;
             case 6:
-                pSkills.textContent = 'Complementando el stack de JavaScript, tengo más de 8 meses de experiencia en la creación de CRUDs. Comprendo el sistema de esquemas, colecciones, documentos y subdocumentos de MongoDB, los métodos POST, PUT, GET y DELETE.';
+                pSkills.textContent = 'Complementando el stack de JavaScript, tengo más de 6 meses de experiencia en la creación de CRUDs. Comprendo el sistema de esquemas, colecciones, documentos y subdocumentos de MongoDB, los métodos POST, PUT, GET y DELETE.';
                 pSkills.style.color = 'green';
                 break;
             case 7:
-                pSkills.textContent = 'Más de 4 meses de experiencia en el lenguaje de base de datos relacional SQL, he utilizado Oracle SQL, MySQL y SQL Server para consultas, filtros, envío de datos y actualizaciones de los mismos. Conocimientos sólidos sobre MER';
+                pSkills.textContent = 'Más de 4 meses de experiencia en el lenguaje de base de datos relacional SQL, he utilizado Oracle SQL, MySQL y SQL Server para consultas, filtros, envío de datos y actualizaciones de los mismos. Conocimientos sólidos sobre MER.';
                 pSkills.style.color = 'lightblue';
                 break;
             default:
