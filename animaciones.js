@@ -152,26 +152,36 @@ for(let i=0;i<imgView.length;i++){
         lightBox.classList.toggle('move');
         switch (i){
             case 0:
+                projectText.innerText = 'Tecnologías utilizadas: HTML, CSS and JS';
+                projectText2.innerText = 'Landing Page para un cliente sobre su nuevo producto de transformación digital, yo realicé el diseño, el código y las animaciones, además de la edición de las imágenes y la adaptación a dispositivos móviles.';
+                btnProject.setAttribute('href', 'https://oss.orbitascr.com/index.html');
+                break;
+            case 1:
+                projectText.innerText = 'Tecnologías utilizadas: HTML, CSS and JS';
+                projectText2.innerText = 'Tomé una versión vieja de este landing page y la actualicé agregando varios sliders, imagenes, y animaciones. Además de reparar los links rotos, los errores de diseño, agregar secciones completas como "Our Work" y "Our Own Prodcuts", realicé todo lo relacionado al Responsive Design ya que no era adaptable y reparé todos los formularios de contacto que no funcionaban.';
+                btnProject.setAttribute('href', 'https://www.orbitascr.com/');
+                break;
+            case 2:
                 projectText.innerText = 'Tecnologías utilizadas: HTML, CSS y JS.';
                 projectText2.innerText = 'Proyecto personal sobre una landing page para una barbería con atractivas animaciones.';
                 btnProject.setAttribute('href', 'https://suncin18.github.io/BarberShop/');
                 break;
-            case 1:
+            case 3:
                 projectText.innerText = 'Tecnologías utilizadas: HTML, CSS.';
                 projectText2.innerText = 'Proyecto de una landing page para la Universidad tomando un diseño de photoshop e implementandolo en código puro.';
                 btnProject.setAttribute('href', 'https://suncin18.github.io/SoftLoop/');
                 break;
-            case 2:
+            case 4:
                 projectText.innerText = 'Tecnologías utilizadas: HTML, CSS, JS';
                 projectText2.innerText = 'Landing page para un restaurante ficticio con su respectivo menú de comidas, responsive y con un menú de navegación fijo.';
                 btnProject.setAttribute('href', 'https://suncin18.github.io/restaurant/');
                 break;
-            case 3:
+            case 5:
                 projectText.innerText = 'Tecnologías utilizadas: HTML, CSS, JS, NodeJS, MongoDB y Git';
                 projectText2.innerText = 'FullStack app con HTML, CSS y JS en el front-end y NodeJS en el back-end, el back-end está en Heroku y el front-end en GitHub, la base de datos está almacenada por medio de AWS con la función que ofrece MongoDB Atlas. La aplicación tiene un log in básico, recibe información del usuario para generar una factura la cual se envía por un responsive HTML email, usando gmail y además se muestra en la sección "historial". Si no desea registrarse (la aplicación le permitirá hacerlo) puede usar estos credenciales: USUARIO: tdevelopment4@gmail.com CONTRASEÑA: Sun#66';
                 btnProject.setAttribute('href', 'https://suncin18.github.io/FacturacionD/');
                 break;
-            case 4:
+            case 6:
                 projectText.innerText = 'Tecnologías utilizadas: HTML, CSS, JS, NodeJS, MongoDB y Git';
                 projectText2.innerText = 'FullStack JavaScrip app para agendar citas en un gimnasio, se genera un código aleatoreo y se almacena en una base de datos, tiene un CRUD por lo que el usuario también puede cancelar su cita y el administrador puede ver la lista de todas las citas agendadas además de poder filtrarlas por fecha o código. Se implementan peticiones con la biblioteca AXIOS, se utiliza mongoose, express, nodemon, routes y otras bibliotecas en el back end.';
                 btnProject.setAttribute('href', 'https://suncin18.github.io/gym-ticket/');
